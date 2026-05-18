@@ -15,19 +15,20 @@
         @click="activeFilter = cat"
       >{{ cat }}</button>
     </div>
-    <div class="work-grid">
+    <TransitionGroup name="list" tag="div" class="work-grid">
       <ProjectCard
         v-for="work in filteredWorks"
         :key="work.id"
         :work="work"
+        :data-index="filteredWorks.indexOf(work)"
         @select="$emit('select', $event)"
       />
-    </div>
+    </TransitionGroup>
   </section>
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 import ProjectCard from './ProjectCard.vue'
 
 const props = defineProps({

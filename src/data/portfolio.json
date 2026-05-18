@@ -8,7 +8,7 @@
       "在校期间，我曾作为团队组长获云南省职业技能大赛二等奖，拿下国家励志奖学金，也做过校合唱团副团长，在代码和舞台之间切换节奏。我的信条很简单：把每一件事做到自己满意为止。"
     ],
     "skills": ["Vue.js", "Spring Boot", "Java", "MySQL", "Python", "Hadoop", "摄影", "Lightroom", "Photoshop", "Pr", "WPS"],
-    "photo": "/images/hero.jpg",
+    "photo": "/images/hero.png",
     "email": "3620410646@qq.com",
     "phone": "18469255284",
     "github": "https://github.com/Ct0604"
@@ -16,39 +16,30 @@
   "works": [
     {
       "id": 1,
-      "title": "昆明老街 · 黄昏时分",
+      "large": true,
+      "title": "曲靖古刹 · 香火与光影",
       "category": "摄影",
       "year": "2025",
-      "cover": "/images/works/photography-1.jpg",
+      "cover": "/images/works/temple.jpg",
       "images": [],
-      "description": "一组拍摄于昆明老街区的人文纪实。黄昏光线穿过旧楼之间的窄巷，在石板路上投下长长的影子。这些街道每天都在消失一点点，我想在它们完全变样之前，用镜头记下来。",
-      "tags": ["街拍", "人文", "纪实"],
+      "description": "曲靖古寺里度过的一个下午。香火缭绕穿过飞檐斗拱，在青石地面上投下斑驳的光斑。这些被时间磨圆的石阶和褪色的壁画，安静地记录着另一种时间流速。",
+      "tags": ["建筑", "人文", "光影"],
       "link": ""
     },
     {
       "id": 2,
-      "title": "当当图书管理系统",
-      "category": "开发",
-      "year": "2024",
-      "cover": "/images/works/dev-1.jpg",
-      "images": [],
-      "description": "基于 Spring Boot + Vue 2 的全栈图书管理平台。实现了图书的增删改查、分类检索、用户权限管理等功能。后端采用 RESTful API，前端使用 Element UI 组件库。",
-      "tags": ["Spring Boot", "Vue 2", "MySQL", "RESTful"],
-      "link": "https://github.com/Ct0604"
-    },
-    {
-      "id": 3,
-      "title": "滇池 · 水面与天光",
+      "title": "珠江源古镇 · 水岸记忆",
       "category": "摄影",
       "year": "2025",
-      "cover": "/images/works/photography-2.jpg",
+      "cover": "/images/works/guzhen.jpg",
       "images": [],
-      "description": "在滇池边度过的一个下午。水面上的光一直在变化，从正午的刺目到傍晚的柔和，像一场缓慢的呼吸。这组照片试图捕捉的不是滇池本身，而是光在水面上的痕迹。",
-      "tags": ["风光", "自然", "长曝光"],
+      "description": "珠江源头的小镇，石板路沿河蜿蜒，老房子的倒影碎在水面上。这里没有游客的喧哗，只有风吹过旧木窗的声响，和老人坐在门槛上晒太阳的慢。",
+      "tags": ["古镇", "风光", "人文"],
       "link": ""
     },
     {
-      "id": 4,
+      "id": 3,
+      "large": true,
       "title": "大数据舆情爬虫分析系统",
       "category": "开发",
       "year": "2024",
@@ -59,25 +50,25 @@
       "link": "https://github.com/Ct0604"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "云南省职业技能大赛 · 团队项目",
       "category": "开发",
       "year": "2024",
       "cover": "/images/works/dev-3.jpg",
       "images": [],
-      "description": "作为团队组长带领 4 人团队参加云南省职业技能大赛，负责前后端全栈开发。项目荣获省级二等奖，在压力下协作的体验比奖状本身更珍贵。",
+      "description": "作为团队组长带领 3 人团队参加云南省职业技能大赛，负责前后端全栈开发。项目荣获省级二等奖，在压力下协作的体验比奖状本身更珍贵。",
       "tags": ["Spring Boot", "Vue", "团队协作", "竞赛"],
       "link": ""
     },
     {
-      "id": 6,
-      "title": "合唱团演出现场",
+      "id": 5,
+      "title": "合唱团 · 谢幕时刻",
       "category": "摄影",
       "year": "2025",
-      "cover": "/images/works/photography-3.jpg",
+      "cover": "/images/works/chorus.jpg",
       "images": [],
-      "description": "大学生艺术展演现场，作为合唱团副团长登台演出。这组幕后照片记录了候场时队友之间的紧张、笑闹和互相整理领结的瞬间。舞台上的整齐划一是结果，后台的混乱才是真实。",
-      "tags": ["人像", "纪实", "舞台"],
+      "description": "大学生艺术展演结束后，全体成员在掌声中鞠躬致谢。灯光落在每个人身上，看不清脸上的表情，只看得到弯腰的弧度。这一刻没有主角和配角之分，所有人都平等地接受舞台最后的馈赠。",
+      "tags": ["舞台", "纪实", "光影"],
       "link": ""
     }
   ]
