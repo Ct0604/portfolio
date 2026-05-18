@@ -40,7 +40,7 @@
     {
       "id": 3,
       "large": true,
-      "title": "大数据舆情爬虫分析系统",
+      "title": "云南 GDP 数据可视化",
       "category": "开发",
       "year": "2024",
       "cover": "/images/works/dev-2.jpg",
@@ -70,6 +70,17 @@
       "description": "大学生艺术展演结束后，全体成员在掌声中鞠躬致谢。灯光落在每个人身上，看不清脸上的表情，只看得到弯腰的弧度。这一刻没有主角和配角之分，所有人都平等地接受舞台最后的馈赠。",
       "tags": ["舞台", "纪实", "光影"],
       "link": ""
+    }
+    {
+      "id": 6,
+      "title": "云南省 GDP 数据可视化",
+      "category": "开发",
+      "year": "2024",
+      "cover": "/images/works/gdp.jpg",
+      "images": [],
+      "description": "基于 Vue 2 + ECharts + DataV 的云南省 GDP 数据可视化大屏。涵盖 GDP 总量、各市对比、人口数据等多维度图表，支持数据后台管理与实时更新。",
+      "tags": ["Vue 2", "ECharts", "DataV", "数据可视化"],
+      "link": "https://ct0604.github.io/yunnan-gdp/"
     }
   ]
 }
