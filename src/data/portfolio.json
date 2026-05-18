@@ -38,18 +38,6 @@
       "link": ""
     },
     {
-      "id": 3,
-      "large": true,
-      "title": "云南 GDP 数据可视化",
-      "category": "开发",
-      "year": "2024",
-      "cover": "/images/works/dev-2.jpg",
-      "images": [],
-      "description": "基于 Python 的网络爬虫项目，实现对指定网站的数据采集、清洗、存储与可视化分析。使用 Scrapy 框架抓取数据，结合 Pandas 与 ECharts 进行数据呈现。",
-      "tags": ["Python", "Scrapy", "Pandas", "数据可视化"],
-      "link": "https://github.com/Ct0604"
-    },
-    {
       "id": 4,
       "title": "云南省职业技能大赛 · 团队项目",
       "category": "开发",
@@ -70,7 +58,7 @@
       "description": "大学生艺术展演结束后，全体成员在掌声中鞠躬致谢。灯光落在每个人身上，看不清脸上的表情，只看得到弯腰的弧度。这一刻没有主角和配角之分，所有人都平等地接受舞台最后的馈赠。",
       "tags": ["舞台", "纪实", "光影"],
       "link": ""
-    }
+    },
     {
       "id": 6,
       "title": "云南省 GDP 数据可视化",
