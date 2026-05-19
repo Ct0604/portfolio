@@ -16,7 +16,28 @@
   "works": [
     {
       "id": 1,
-      "large": true,
+      "title": "云南省 GDP 数据可视化",
+      "category": "开发",
+      "year": "2024",
+      "cover": "images/works/gdp.jpg",
+      "images": [],
+      "description": "基于 Vue 2 + ECharts + DataV 的云南省 GDP 数据可视化大屏。涵盖 GDP 总量、各市对比、人口数据等多维度图表，支持数据后台管理与实时更新。",
+      "tags": ["Vue 2", "ECharts", "DataV", "数据可视化"],
+      "link": "https://ct0604.github.io/yunnan-gdp/"
+    },
+    {
+      "id": 2,
+      "title": "云南省职业技能大赛 · 团队项目",
+      "category": "开发",
+      "year": "2024",
+      "cover": "images/works/dev-3.jpg",
+      "images": [],
+      "description": "作为团队组长带领 4 人团队参加云南省职业技能大赛，负责前后端全栈开发。项目荣获省级二等奖，在压力下协作的体验比奖状本身更珍贵。",
+      "tags": ["Spring Boot", "Vue", "团队协作", "竞赛"],
+      "link": ""
+    },
+    {
+      "id": 3,
       "title": "曲靖古刹 · 香火与光影",
       "category": "摄影",
       "year": "2025",
@@ -27,7 +48,7 @@
       "link": ""
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "珠江源古镇 · 水岸记忆",
       "category": "摄影",
       "year": "2025",
@@ -35,29 +56,6 @@
       "images": [],
       "description": "珠江源头的小镇，石板路沿河蜿蜒，老房子的倒影碎在水面上。这里没有游客的喧哗，只有风吹过旧木窗的声响，和老人坐在门槛上晒太阳的慢。",
       "tags": ["古镇", "风光", "人文"],
-      "link": ""
-    },
-    {
-      "id": 3,
-      "large": true,
-      "title": "大数据舆情爬虫分析系统",
-      "category": "开发",
-      "year": "2024",
-      "cover": "images/works/dev-2.jpg",
-      "images": [],
-      "description": "基于 Python 的网络爬虫项目，实现对指定网站的数据采集、清洗、存储与可视化分析。使用 Scrapy 框架抓取数据，结合 Pandas 与 ECharts 进行数据呈现。",
-      "tags": ["Python", "Scrapy", "Pandas", "数据可视化"],
-      "link": "https://github.com/Ct0604"
-    },
-    {
-      "id": 4,
-      "title": "云南省职业技能大赛 · 团队项目",
-      "category": "开发",
-      "year": "2024",
-      "cover": "images/works/dev-3.jpg",
-      "images": [],
-      "description": "作为团队组长带领 4 人团队参加云南省职业技能大赛，负责前后端全栈开发。项目荣获省级二等奖，在压力下协作的体验比奖状本身更珍贵。",
-      "tags": ["Spring Boot", "Vue", "团队协作", "竞赛"],
       "link": ""
     },
     {
@@ -70,17 +68,6 @@
       "description": "大学生艺术展演结束后，全体成员在掌声中鞠躬致谢。灯光落在每个人身上，看不清脸上的表情，只看得到弯腰的弧度。这一刻没有主角和配角之分，所有人都平等地接受舞台最后的馈赠。",
       "tags": ["舞台", "纪实", "光影"],
       "link": ""
-    },
-    {
-      "id": 6,
-      "title": "云南省 GDP 数据可视化",
-      "category": "开发",
-      "year": "2024",
-      "cover": "images/works/gdp.jpg",
-      "images": [],
-      "description": "基于 Vue 2 + ECharts + DataV 的云南省 GDP 数据可视化大屏。涵盖 GDP 总量、各市对比、人口数据等多维度图表，支持数据后台管理与实时更新。",
-      "tags": ["Vue 2", "ECharts", "DataV", "数据可视化"],
-      "link": "https://ct0604.github.io/yunnan-gdp/"
     }
   ]
 }
