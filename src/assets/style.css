@@ -452,6 +452,72 @@ img {
   font-weight: 600;
 }
 
+/* ── 缩略图条 ── */
+.detail-thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.detail-thumb {
+  flex-shrink: 0;
+  width: 72px;
+  aspect-ratio: 4 / 3;
+  border: 2px solid transparent;
+  cursor: pointer;
+  overflow: hidden;
+  background: var(--border-light);
+  padding: 0;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.detail-thumb:hover {
+  transform: translateY(-2px);
+  border-color: var(--border);
+}
+
+.detail-thumb.active {
+  border-color: var(--accent);
+}
+
+.detail-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-thumb .thumb-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.detail-thumb.active .thumb-icon {
+  color: var(--accent);
+}
+
+/* ── 视频播放器 ── */
+.detail-video-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.detail-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .detail-info {
   display: flex;
   flex-direction: column;
@@ -531,6 +597,91 @@ img {
 .detail-link:hover {
   background: var(--accent);
   color: #fff;
+}
+
+/* ── 图片灯箱 ── */
+.image-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  background: rgba(0,0,0,0.94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iv-close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s;
+  line-height: 1;
+}
+
+.iv-close:hover {
+  color: #fff;
+}
+
+.iv-main {
+  max-width: 90vw;
+  max-height: 85vh;
+  cursor: default;
+}
+
+.iv-main img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  display: block;
+}
+
+.iv-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.5);
+  font-size: 56px;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 20px;
+  line-height: 1;
+}
+
+.iv-arrow:hover {
+  color: #fff;
+}
+
+.iv-prev { left: 12px; }
+.iv-next { right: 12px; }
+
+.iv-counter {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,0.5);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 
 /* ============================================
