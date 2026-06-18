@@ -1,6 +1,5 @@
 <template>
   <div class="app-layout">
-    <Sidebar />
     <main class="main-content">
       <router-view v-slot="{ Component }">
         <transition name="page" mode="out-in">
@@ -12,5 +11,4 @@
 </template>
 
 <script setup>
-import Sidebar from './components/Sidebar.vue'
 </script>
