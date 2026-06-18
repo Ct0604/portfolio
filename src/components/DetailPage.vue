@@ -122,7 +122,19 @@ function openViewer() {
 }
 
 function goBack() {
+  const workId = props.id
   router.push('/')
+  nextTick(() => {
+    const tryScroll = () => {
+      const el = document.getElementById('work-' + workId)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      } else {
+        requestAnimationFrame(tryScroll)
+      }
+    }
+    setTimeout(tryScroll, 50)
+  })
 }
 
 // ── 切换到图片 ──
@@ -133,7 +145,6 @@ function switchTo(index) {
 
   nextTick(() => {
     if (wasVideo) {
-      // 从视频切到图片：弹入
       animate(imageWrap.value, {
         opacity: [0, 1],
         scale: [0.94, 1],
@@ -141,7 +152,6 @@ function switchTo(index) {
         ease: 'outExpo'
       })
     } else if (currentIndex.value !== index) {
-      // 图片之间切换：侧滑
       const dir = index > currentIndex.value ? 20 : -20
       animate(imageWrap.value, {
         x: [dir, 0],
@@ -188,7 +198,6 @@ function onKeyDown(e) {
 }
 
 onMounted(() => {
-  // 有视频时默认显示视频
   if (hasVideo.value) {
     showVideo.value = true
     nextTick(() => {
